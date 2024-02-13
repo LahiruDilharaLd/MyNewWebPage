@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Simple Webpage</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 50px;
+        }
+
+        button {
+            margin-top: 20px;
+            font-size: 16px;
+            padding: 15px 30px;
+            border: 3px solid #3498db;
+            border-radius: 10px;
+            background-color: #3498db;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        #address {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Main Name</h1>
+
+    <button onclick="goToFacebook()">Facebook</button>
+    <button onclick="goToWhatsApp()">WhatsApp</button>
+
+    <div id="address">
+        <div>
+            <p>Street</p>
+            <p>City</p>
+            <p>Country</p>
+        </div>
+        <div>
+            <p>Zip Code</p>
+            <p>State</p>
+        </div>
+        <div>
+            <p>Email: example@example.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </div>
+    </div>
+
+    <script>
+        function goToFacebook() {
+            window.location.href = "https://www.facebook.com/LahiruDilharaLD?mibextid=ZbWKwL";
+        }
+
+        function goToWhatsApp() {
+            window.location.href = "https://wa.link/whiabr";
+        }
+    </script>
+
+</body>
+</html>
